@@ -85,10 +85,10 @@ If you want to understand the project end-to-end, read in this order:
 
 ```bibtex
 @software{aeris_llm_safety_2026,
-  title  = {AERIS: A Defensive Red-Teaming Framework for Large Language Models},
-  author = {YOUR NAME},
-  year   = {2026},
-  url    = {https://github.com/YOUR_USERNAME/aeris-llm-safety}
+  title  = AERIS: A Defensive Red-Teaming Framework for Large Language Models,
+  author = ARYAN SHAH,
+  year   = 2026,
+  url    = https://github.com/arxanshxh2309/aeris-llm-safety/
 }
 ```
 
