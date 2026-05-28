@@ -1,0 +1,11 @@
+# Defended variant of smoke.yaml. Same prompts, full defense pipeline on top.
+# The headline experiment compares the two.
+attack_set: datasets/attacks_smoke.yaml
+benign_set: datasets/benigns_smoke.yaml
+defenses:
+  - system_prompt_hardener_v1
+  - length_guard_v1
+  - keyword_filter_v1
+  - heuristic_injection_detector_v1
+seed: 1337
+max_concurrency: 4

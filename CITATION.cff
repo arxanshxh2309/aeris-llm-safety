@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "AERIS: A Defensive Red-Teaming Framework for Large Language Models"
+abstract: >-
+  AERIS is a reproducible benchmark and defense suite for measuring how
+  reliably a large language model resists adversarial inputs — prompt
+  injection, jailbreaks, harmful-content elicitation, and indirect attacks
+  via tool use. It is purely defensive: it ships only published attack
+  templates as surrogate triggers, and is designed not to produce usable
+  harm artifacts.
+type: software
+authors:
+  - given-names: "YOUR FIRST NAME"
+    family-names: "YOUR LAST NAME"
+    email: "you@example.com"
+version: "0.1.0"
+date-released: "2026-05-28"
+license: MIT
+repository-code: "https://github.com/YOUR_USERNAME/aeris-llm-safety"
+keywords:
+  - large language models
+  - AI safety
+  - red teaming
+  - prompt injection
+  - jailbreak
+  - robustness evaluation

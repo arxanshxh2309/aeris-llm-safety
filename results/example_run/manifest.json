@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "run_id": "1828d3b0-eccb-471b-9633-35608357db73",
+  "timestamp_utc": "2026-05-28T16:55:22.732260Z",
+  "git_sha": null,
+  "config_hash": "sha256:b9e6c4377264fb0d1d31828efc12da7f8a21f108f68b42e650a978f049c2ec09",
+  "target_model": "mock/echo",
+  "judge_model": "mock/echo",
+  "attack_set_id": "attacks_full@e1422710f175c7c9",
+  "benign_set_id": "benigns_full@696a54c58775f531",
+  "defenses": [
+    "system_prompt_hardener_v1",
+    "length_guard_v1",
+    "keyword_filter_v1",
+    "heuristic_injection_detector_v1"
+  ],
+  "seed": 1337,
+  "n_calls": 160,
+  "n_tokens_in": 9100,
+  "n_tokens_out": 2427,
+  "permission_asserted": true
+}

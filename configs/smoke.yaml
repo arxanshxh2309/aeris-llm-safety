@@ -1,0 +1,11 @@
+# Smoke config — fast, cheap, runs on CI.
+attack_set: datasets/attacks_smoke.yaml
+benign_set: datasets/benigns_smoke.yaml
+
+# Judge defaults to the target model; override here if you want
+# cross-model judging (recommended for headline results).
+# judge_model: anthropic/claude-sonnet-4-5
+
+defenses: []     # baseline; no defenses
+seed: 1337
+max_concurrency: 4
