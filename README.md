@@ -95,5 +95,7 @@ If you want to understand the project end-to-end, read in this order:
 ## Acknowledgments
 
 This work builds on the public benchmarks and methodology of [HarmBench](https://www.harmbench.org/) (Mazeika et al., 2024), [XSTest](https://github.com/paul-rottger/exaggerated-safety) (Röttger et al., 2023), [TensorTrust](https://tensortrust.ai/) (Toyer et al., 2023), and the indirect-injection threat-modeling work of [Greshake et al. (2023)](https://arxiv.org/abs/2302.12173). The defenses are inspired by [Llama Guard](https://arxiv.org/abs/2312.06674), [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails), and Anthropic's [constitutional classifiers](https://www.anthropic.com/research/constitutional-classifiers) work.
-License
-See LICENSE.
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
