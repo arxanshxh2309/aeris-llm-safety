@@ -59,7 +59,7 @@ This repository is explicitly designed to be **non-harmful**:
 ## Quickstart
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/aeris-llm-safety
+git clone https://github.com/arxanshxh2309/aeris-llm-safety
 cd aeris-llm-safety
 pip install -e ".[dev]"
 cp .env.example .env  # add API keys for any providers you want to test
